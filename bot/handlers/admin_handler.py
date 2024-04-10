@@ -87,3 +87,4 @@ def setup_admin_handlers(dp: Dispatcher, lang_storage, _):
         lambda callback_query: callback_query.data.startswith("delete_admin"),
         state="*"
     )
+
