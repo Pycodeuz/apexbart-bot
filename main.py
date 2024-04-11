@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 
 from bot.handlers import *
 from bot.middlewares.discrimin_filter import DiscriminationMiddleware
+from db.base import Base
+from db.database import engine
 
 load_dotenv('.env')
 TOKEN = os.getenv('TOKEN')
